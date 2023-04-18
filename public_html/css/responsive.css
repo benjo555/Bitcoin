@@ -1,0 +1,224 @@
+@media(min-width:576px){
+    /* SM breakpoint*/
+    .testimonials .testimonials-item .testimonials-item-author{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .testimonials .testimonials-slider {
+        margin-top: -78px;
+    }
+}
+
+@media(min-width: 768px){
+    /* MD breakpoint*/
+    /*hero*/
+    .hero .hero-item .hero-item-title{
+        margin-bottom: 40px;
+        margin-top: 100px;
+    }
+    .hero .hero-item .hero-item-description{
+        margin-bottom: 51px;
+    }
+    .hero .owl-theme .owl-dots{
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*testimonials*/
+    .testimonials{
+        margin-bottom: 70px !important;
+    }
+    .testimonials .testimonials-item{
+        width: 75%;
+        margin-inline: auto;
+    }
+    .testimonials .testimonials-slider {
+        margin-top: -111px;
+    }
+    .testimonials .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 50px;
+    }
+
+    /*gallery*/
+    .gallery{
+        margin-bottom: 60px !important;
+    }
+}
+
+
+@media(min-width: 992px){
+    /* LG breakpoint*/
+
+    /*header*/
+    header .navbar{
+        padding: 37px 0 0.5rem;
+        transition: 0.3s linear;
+    }
+    header.scaled .navbar{
+        padding: 0.5rem 0;
+    }
+    header .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 30px;
+    }
+    header .navbar-nav{
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    header .navbar-nav .nav-item .custom-btn{
+        width: 100% !important;
+        margin-inline: 0 !important;
+    }
+    main.mb-md-5{
+        margin-bottom: 80px !important;
+    }
+    /*hero*/
+    .hero{
+        padding-top: 107px;
+    }
+    .hero .hero-item .hero-item-link{
+        padding: 19px 54px 17px 47px;
+    }
+    .hero .owl-theme .owl-dots{
+        bottom: 196px;
+    }
+
+    /*benefit*/
+    .benefit{
+        background-color: transparent;
+        margin-bottom: 89px !important;
+    }
+    .benefit  .benefit-wrapper{
+        position: relative;
+        padding: 36px 15px 20px;
+        margin-inline: -15px;
+        z-index: 2;
+        background-color: #fff;
+        margin-top: -165px;
+        border-radius: 10px;
+        box-shadow: 0 10px 34px 0 rgba(210,210,210,0.5);
+    }
+    .benefit .benefit-item .benefit-item-img{
+        margin-bottom: 24px;
+    }
+
+    /*pricing*/
+    .pricing .pricing-title{
+        line-height: 50px;
+        margin-bottom: 60px !important;
+    }
+    .pricing .pricing-item .pricing-item-header{
+        margin-bottom: 60px !important;
+    }
+
+    /*testimonials*/
+    .testimonials{
+        margin-bottom: 90px !important;
+    }
+    .testimonials .testimonials-title{
+        line-height: 48px;
+    }
+    .testimonials .testimonials-item{
+        width: 60%;
+    }
+    .testimonials .testimonials-item .testimonials-item-text{
+        height: 180px;
+        margin-bottom: 78px !important;
+    }
+    .testimonials .testimonials-slider {
+        margin-top: -137px;
+    }
+    .testimonials .owl-theme .owl-nav.disabled + .owl-dots{
+        margin-top: 71px;
+    }
+
+    /*gallery*/
+    .gallery{
+        margin-bottom: 71px !important;
+    }
+
+    /*footer*/
+    .footer .footer-nav{
+        margin-bottom: 37px !important;
+    }
+
+}
+
+@media(min-width: 1200px){
+    /* XL breakpoint*/
+    .container{
+        max-width: 1110px;
+    }
+    main.mb-md-5{
+        margin-bottom: 130px !important;
+    }
+    /*hero*/
+    .hero .hero-item .hero-item-title{
+        font-size: 48px;
+        line-height: 57px;
+    }
+
+    /*benefit*/
+    .benefit .benefit-wrapper{
+        padding: 50px 40px 64px;
+        margin-top: -165px;
+        margin-inline: -40px;
+    }
+    .benefit .benefit-item .benefit-item-img{
+        margin-inline: 0;
+    }
+    .benefit .benefit-item .benefit-item-title:after{
+        margin: 28px 0 18px;
+    }
+    /*pricing*/
+    .pricing .pricing-title{
+        line-height: 59px;
+    }
+    .pricing .pricing-item .pricing-item-header .pricing-item-title{
+        line-height: 32px;
+    }
+
+    /*testimonials*/
+    .testimonials{
+        margin-bottom: 112px !important;
+    }
+    .testimonials .testimonials-title{
+        margin-inline: 0;
+    }
+    .testimonials .testimonials-item{
+        width: 100%;
+        padding: 80px 78px 63px 64px;
+        margin-inline: 0;
+    }
+    .testimonials .testimonials-item .testimonials-item-img{
+        margin-inline: 0;
+    }
+    .testimonials .testimonials-item .testimonials-item-author{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .testimonials .testimonials-item .testimonials-item-author-firm{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    .testimonials .testimonials-slider {
+        margin-top: -142px;
+    }
+
+}
+
+@media(min-width: 1400px){
+    /* XXL breakpoint*/
+    main.mb-md-5{
+        margin-bottom: 150px !important;
+    }
+
+    /*benefit*/
+    .benefit .benefit-wrapper{
+        padding: 66px 74px 80px;
+        margin-top: -165px;
+        margin-inline: -74px;
+    }
+
+}
